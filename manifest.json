@@ -7,7 +7,7 @@
  
   "content_scripts": [
     {
-        "matches": ["https://www.ics.uci.edu/~thornton/ics45c/*"],
+        "matches": ["https://www.ics.uci.edu/~thornton/ics45c/*/"],
         "css": ["./dark_mode.css"],
         "js": ["./content.js"]
     }
