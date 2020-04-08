@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "Lateral blog post demo extension",
+ 
+  "content_scripts": [
+    {
+        "matches": ["https://www.ics.uci.edu/~thornton/ics45c/*"],
+        "css": ["./dark_mode.css"],
+        "js": ["./content.js"]
+    }
+  ]
+ 
+}
